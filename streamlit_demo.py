@@ -1,8 +1,8 @@
 import pandas as pd
 import numpy as np
 import streamlit as st
-#import plotly.graph_objects as go
-#import plotly.express as px
+import plotly.graph_objects as go
+import plotly.express as px
 from datetime import datetime
 
 @st.cache_data #ทำให้ไม่ต้องโหลด dataset ใหม่ทุกรอบ
