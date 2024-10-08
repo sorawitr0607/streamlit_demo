@@ -136,7 +136,7 @@ elif add_sidebar == 'Individual Video Analysis':
     
     fig2 = go.Figure()
     fig2.add_trace(go.Scatter(x=views_cumulative['days_published'], y=views_cumulative['20pct_views'],mode='lines',name='20th percentile', line=dict(color='purple', dash ='dash')))
-    fig2.add_trace(go.Scatter(x=views_cumulative['days_published'], y=views_cumulative['median_views'],mode='lines',name='50th percentile', line=dict(color='white', dash ='dash')))
+    fig2.add_trace(go.Scatter(x=views_cumulative['days_published'], y=views_cumulative['median_views'],mode='lines',name='50th percentile', line=dict(color='black', dash ='dash')))
     fig2.add_trace(go.Scatter(x=views_cumulative['days_published'], y=views_cumulative['80pct_views'],mode='lines', name='80th percentile', line=dict(color='royalblue', dash ='dash')))
     fig2.add_trace(go.Scatter(x=first_30['days_published'], y=first_30['Views'].cumsum(),mode='lines', name='Current Video' ,line=dict(color='firebrick',width=8)))
         
